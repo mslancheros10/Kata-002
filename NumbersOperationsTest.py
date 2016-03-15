@@ -18,4 +18,10 @@ class NumbersOperationsTest(TestCase):
     def test_elementsNumbersMultipleNumbers(self):
         self.assertEquals(self.numbersOperations.elementsNumbers('5,9,0,1,3')[0],5,"Elements number")
 
+    def test_elementsNumbersMultipleNumbers(self):
+        self.assertEquals(self.numbersOperations.elementsNumbers('5,9,0,1,3')[0],5,"Elements number")
+
+    def test_elementsMinEmpty(self):
+        self.assertEquals(self.numbersOperations.elementsMin(''),[1,1],"Elements number and minimum")
+
 
