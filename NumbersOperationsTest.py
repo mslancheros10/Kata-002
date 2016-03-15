@@ -7,4 +7,4 @@ class NumbersOperationsTest(TestCase):
     numbersOperations = NumbersOperations()
 
     def test_elementsNumbers(self):
-        self.assertEquals(self.numbersOperations.elementsNumbers('')[0],1,"Elements number")
+        self.assertEquals(self.numbersOperations.elementsNumbers('')[0],0,"Elements number")
