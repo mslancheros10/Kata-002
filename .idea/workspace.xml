@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c5f44dc-5aed-4637-8666-2ac78f2521dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Kata-002.iml" afterPath="$PROJECT_DIR$/.idea/Kata-002.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -20,7 +19,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Kata-002$Unittests_in_NumbersOperationsTest.coverage" NAME="Unittests in NumbersOperationsTest Coverage Results" MODIFIED="1458058650452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kata-002$Unittests_in_NumbersOperationsTest.coverage" NAME="Unittests in NumbersOperationsTest Coverage Results" MODIFIED="1458060106328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/NumbersOperations.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,11 +43,21 @@
       <file leaf-file-name="NumbersOperationsTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NumbersOperationsTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4473684">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.8333333">
+              <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,6 +78,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/NumbersOperations.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/NumbersOperationsTest.py" />
       </list>
     </option>
@@ -79,10 +89,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-1016" />
+    <option name="y" value="27" />
+    <option name="width" value="951" />
+    <option name="height" value="934" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -109,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -131,6 +140,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,28 +411,28 @@
       <option name="project" value="LOCAL" />
       <updated>1458058051102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Paso 1 - Se modifica para que pase la prueba de numero de elementos cuando se envia una cadena con n elementos (Verde)">
+      <created>1458058970240</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1458058970240</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia una cadena vacia (Verde)">
+      <created>1458059734239</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1458059734239</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia un número (Verde)">
+      <created>1458059987556</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1458059987556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 10h 46m 49s.xml">
-      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 10h 47m 33s.xml">
-      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 10h 47m 53s.xml">
-      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 10h 48m 02s.xml">
-      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 10h 56m 13s.xml">
-      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 06m 15s.xml">
-      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 06m 39s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
@@ -433,6 +443,24 @@
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 17m 30s.xml">
+      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 22m 00s.xml">
+      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 22m 12s.xml">
+      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 34m 29s.xml">
+      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 34m 43s.xml">
+      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 39m 10s.xml">
+      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 41m 46s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
   </component>
@@ -446,22 +474,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-1016" y="27" width="951" height="934" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3560172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36413643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32541567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -474,16 +502,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Paso 1 - Se modifica para que pase la prueba de numero de elementos cuando se envia una cadena vacia (Verde)" />
     <MESSAGE value="Paso 1 - Se modifica para que pase la prueba de numero de elementos cuando se envia una cadena con 1 numero (Verde)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paso 1 - Se modifica para que pase la prueba de numero de elementos cuando se envia una cadena con 1 numero (Verde)" />
+    <MESSAGE value="Paso 1 - Se modifica para que pase la prueba de numero de elementos cuando se envia una cadena con n elementos (Verde)" />
+    <MESSAGE value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia una cadena vacia (Verde)" />
+    <MESSAGE value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia un número (Verde)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia un número (Verde)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NumbersOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NumbersOperationsTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NumbersOperations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -523,15 +573,23 @@
     <entry file="file://$PROJECT_DIR$/NumbersOperations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NumbersOperationsTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
