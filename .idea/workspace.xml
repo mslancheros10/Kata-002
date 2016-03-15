@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c5f44dc-5aed-4637-8666-2ac78f2521dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Kata-002.iml" afterPath="$PROJECT_DIR$/.idea/Kata-002.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumbersOperationsTest.py" afterPath="$PROJECT_DIR$/NumbersOperationsTest.py" />
     </list>
@@ -19,7 +17,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Kata-002$Unittests_in_NumbersOperationsTest.coverage" NAME="Unittests in NumbersOperationsTest Coverage Results" MODIFIED="1458060106328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kata-002$Unittests_in_Kata_002.coverage" NAME="Unittests in Kata-002 Coverage Results" MODIFIED="1458062614631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kata-002$Unittests_in_NumbersOperationsTest.coverage" NAME="Unittests in NumbersOperationsTest Coverage Results" MODIFIED="1458062621543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/NumbersOperations.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,8 +42,8 @@
       <file leaf-file-name="NumbersOperationsTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NumbersOperationsTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8333333">
-              <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.6388889">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -167,6 +166,29 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in Kata-002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Kata-002" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -367,12 +389,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in NumbersOperationsTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Kata-002" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in NumbersOperationsTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Kata-002" />
       </list>
     </recent_temporary>
   </component>
@@ -429,38 +453,92 @@
       <option name="project" value="LOCAL" />
       <updated>1458059987556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envian dos números (Verde)">
+      <created>1458060125179</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1458060125179</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envian multiples números (Verde)">
+      <created>1458060347441</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1458060347441</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envian una cadena vacia (Verde)">
+      <created>1458060695652</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1458060695652</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envia un número (Verde)">
+      <created>1458060831411</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1458060831411</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envia una cadena con dos números (Verde)">
+      <created>1458060961761</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1458060961761</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envia una cadena con multiples números (Verde)">
+      <created>1458061812364</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1458061812364</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Paso 4 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo, el maximo y el promedio cuando se envia una cadena vacia (Verde)">
+      <created>1458062258905</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1458062258905</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Paso 4 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo, el maximo y el promedio cuando se envia una cadena con un número (Verde)">
+      <created>1458062379616</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1458062379616</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Paso 4 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo, el maximo y el promedio cuando se envia una cadena con dos números (Verde)">
+      <created>1458062500991</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1458062500991</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 06m 39s.xml">
+    <history-entry file="Unittests_in_Kata-002 - 2016.03.15 at 12h 23m 34s.xml">
+      <configuration name="Unittests in Kata-002" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 09m 26s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 09m 56s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 09m 39s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 10m 03s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 16m 46s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 17m 30s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 16m 59s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 22m 00s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 18m 53s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 22m 12s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 19m 17s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 34m 29s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 21m 01s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 34m 43s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 21m 24s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 39m 10s.xml">
-      <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 11h 41m 46s.xml">
+    <history-entry file="Unittests_in_NumbersOperationsTest - 2016.03.15 at 12h 23m 41s.xml">
       <configuration name="Unittests in NumbersOperationsTest" configurationId="tests" />
     </history-entry>
   </component>
@@ -477,14 +555,14 @@
     <frame x="-1016" y="27" width="951" height="934" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36413643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36413643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32541567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32541567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -509,7 +587,16 @@
     <MESSAGE value="Paso 1 - Se modifica para que pase la prueba de numero de elementos cuando se envia una cadena con n elementos (Verde)" />
     <MESSAGE value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia una cadena vacia (Verde)" />
     <MESSAGE value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia un número (Verde)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envia un número (Verde)" />
+    <MESSAGE value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envian dos números (Verde)" />
+    <MESSAGE value="Paso 2 - Se modifica para que pase la prueba de numero de elementos y el minimo cuando se envian multiples números (Verde)" />
+    <MESSAGE value="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envian una cadena vacia (Verde)" />
+    <MESSAGE value="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envia un número (Verde)" />
+    <MESSAGE value="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envia una cadena con dos números (Verde)" />
+    <MESSAGE value="Paso 3 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo y el maximo cuando se envia una cadena con multiples números (Verde)" />
+    <MESSAGE value="Paso 4 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo, el maximo y el promedio cuando se envia una cadena vacia (Verde)" />
+    <MESSAGE value="Paso 4 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo, el maximo y el promedio cuando se envia una cadena con un número (Verde)" />
+    <MESSAGE value="Paso 4 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo, el maximo y el promedio cuando se envia una cadena con dos números (Verde)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paso 4 - Se modifica para que pase la prueba de obtener el numero de elementos, el minimo, el maximo y el promedio cuando se envia una cadena con dos números (Verde)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -570,14 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NumbersOperations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -586,10 +665,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NumbersOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NumbersOperationsTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8333333">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.6388889">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
