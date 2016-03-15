@@ -14,3 +14,5 @@ class NumbersOperationsTest(TestCase):
 
     def test_elementsNumbersTwoNumbers(self):
         self.assertEquals(self.numbersOperations.elementsNumbers('5,6')[0],2,"Elements number")
+
+
