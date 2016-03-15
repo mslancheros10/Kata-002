@@ -53,3 +53,6 @@ class NumbersOperationsTest(TestCase):
 
     def test_elementsAvgTwoNumbers(self):
         self.assertEquals(self.numbersOperations.elementsAvg('4,2'),[2,2,4,3],"Elements number, minimum, maximum, and average")
+
+    def test_elementsAvgMultipleNumbers(self):
+        self.assertEquals(self.numbersOperations.elementsAvg('5,3,6,2'),[2,2,4,3],"Elements number, minimum, maximum, and average")
