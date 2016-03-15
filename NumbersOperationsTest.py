@@ -46,6 +46,6 @@ class NumbersOperationsTest(TestCase):
         self.assertEquals(self.numbersOperations.elementsMax('8,13,20,5,9,12'),[6,5,20],"Elements number, minimum and maximum")
 
     def test_elementsAvgEmpty(self):
-        self.assertEquals(self.numbersOperations.elementsAvg(''),[0,1,2,3],"Elements number, minimum, maximum, and average")
+        self.assertEquals(self.numbersOperations.elementsAvg(''),[0,0,0,0],"Elements number, minimum, maximum, and average")
 
 
