@@ -8,3 +8,5 @@ class NumbersOperations:
             return [0]
         array = [len(arraynumbers)]
         return array
+
+    
