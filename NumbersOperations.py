@@ -16,5 +16,5 @@ class NumbersOperations:
         if arraynumbers[0] == '':
             return [elementNumers[0],0]
         array = [min(arraynumbers)]
-        return [elementNumers[0],array[0]]
+        return [elementNumers[0],int(array[0])]
 
