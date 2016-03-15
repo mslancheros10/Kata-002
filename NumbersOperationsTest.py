@@ -6,5 +6,8 @@ class NumbersOperationsTest(TestCase):
 
     numbersOperations = NumbersOperations()
 
-    def test_elementsNumbers(self):
+    def test_elementsNumbersEmptyString(self):
         self.assertEquals(self.numbersOperations.elementsNumbers('')[0],0,"Elements number")
+
+    def test_elementsNumbersOneNumber(self):
+        self.assertEquals(self.numbersOperations.elementsNumbers('5')[0],0,"Elements number")

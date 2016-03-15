@@ -9,4 +9,3 @@ class NumbersOperations:
         array = [len(arraynumbers)]
         return array
 
-    
