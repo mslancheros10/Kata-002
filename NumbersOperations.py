@@ -33,7 +33,11 @@ class NumbersOperations:
         maxNumber = self.elementsMax(numbers)
         arraynumbers = numbers.split(',')
         if arraynumbers[0] == '':
-            return [maxNumber[0],maxNumber[1],0]
-        array = [max(arraynumbers)]
-        return [maxNumber[0],maxNumber[1],int(array[0])]
+            return [maxNumber[0],maxNumber[1],maxNumber[2],0]
+        arraynumbers = map(int,arraynumbers)
+        sum = 0
+        for elm in arraynumbers:
+            sum += elm
+        avg=sum/len(arraynumbers)
+        return [maxNumber[0],maxNumber[1],maxNumber[2],avg]
 
