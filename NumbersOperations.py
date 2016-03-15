@@ -18,3 +18,11 @@ class NumbersOperations:
         array = [min(arraynumbers)]
         return [elementNumers[0],int(array[0])]
 
+    def elementsMax(self, numbers):
+        minNumber = self.elementsMin(numbers)
+        arraynumbers = numbers.split(',')
+        if arraynumbers[0] == '':
+            return [minNumber[0],minNumber[1],0]
+        array = [max(arraynumbers)]
+        return [minNumber[0],minNumber[1],int(array[0])]
+

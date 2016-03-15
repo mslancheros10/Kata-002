@@ -33,4 +33,7 @@ class NumbersOperationsTest(TestCase):
     def test_elementsMinTwoNumbers(self):
         self.assertEquals(self.numbersOperations.elementsMin('5,1,9,6,1,13'),[6,1],"Elements number and minimum")
 
+    def test_elementsMaxEmpty(self):
+        self.assertEquals(self.numbersOperations.elementsMax(''),[1,2,3],"Elements number and minimum")
+
 
